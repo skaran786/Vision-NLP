@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vision-nlp"
+version = "0.1.0"
+description = ""
+authors = ["Karan Verma <vkaran969@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.39.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
